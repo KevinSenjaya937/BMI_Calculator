@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="age_question">Are you at least 20 years old?</string>
+    <string name="preferred_uom">Your preferred System</string>
+    <string name="metric">METRIC</string>
+    <string name="imperial">IMPERIAL</string>
+    <string name="selected_system">System Selected: </string>
+    <string name="weight_prompt">Please enter your Weight</string>
+    <string name="height_prompt">Please enter your Height</string>
+    <string name="CM">cm</string>
+    <string name="inch">inches</string>
+    <string name="kilos">kg</string>
+    <string name="pounds">lbs</string>
+    <string name="next">NEXT</string>
+    <string name="your_weight">Your weight: </string>
+    <string name="your_height">Your height: </string>
+    <string name="your_bmi">Your BMI</string>
+    <string name="zoom_in">+</string>
+    <string name="zoom_out">-</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+</resources>

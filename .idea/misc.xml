@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMICalculator/app/src/main/res/drawable/circular_buttons.xml" value="0.4765" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMICalculator/app/src/main/res/drawable/rounded_buttons.xml" value="0.4765" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMICalculator/app/src/main/res/drawable/rounded_text.xml" value="0.4765" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMICalculator/app/src/main/res/layout-land/activity_bmiresults.xml" value="0.5" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMICalculator/app/src/main/res/layout-sw600dp/activity_bmiresults.xml" value="0.22" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMICalculator/app/src/main/res/layout-v26/activity_input_body_data.xml" value="0.2159042325780248" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMICalculator/app/src/main/res/layout/activity_age_verification.xml" value="0.41214194100042756" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMICalculator/app/src/main/res/layout/activity_bmiresults.xml" value="0.41214194100042756" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMICalculator/app/src/main/res/layout/activity_input_body_data.xml" value="0.67" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMICalculator/app/src/main/res/layout/activity_main.xml" value="0.5020833333333333" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMICalculator/app/src/main/res/layout/activity_select_uomsystem.xml" value="0.5" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMICalculator/app/src/main/res/layout/body_data_input.xml" value="0.5" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMICalculator/app/src/main/res/layout/prefered_measuring_units.xml" value="0.5010416666666667" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMI_Calculator-master/app/src/main/res/layout/activity_bmiresults.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMI_Calculator-master/app/src/main/res/layout/activity_input_body_data.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMI_Calculator-master/app/src/main/res/layout/activity_main.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/Kevin Senjaya/AndroidStudioProjects/BMI_Calculator-master/app/src/main/res/layout/activity_select_uomsystem.xml" value="0.15885416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
