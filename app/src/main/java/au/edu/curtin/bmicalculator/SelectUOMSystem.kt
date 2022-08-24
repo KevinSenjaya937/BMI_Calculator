@@ -34,7 +34,10 @@ class SelectUOMSystem : AppCompatActivity() {
     }
     companion object {
         fun getSystem(intent : Intent): Int {
-        return intent.getIntExtra("system", 2) }
+        return intent.getIntExtra("system", 2)
+        }
+
+
     }
 
 

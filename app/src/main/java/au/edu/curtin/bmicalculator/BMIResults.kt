@@ -36,13 +36,14 @@ class BMIResults : AppCompatActivity() {
         val yourWeightText = findViewById<TextView>(R.id.yourWeightText)
         val yourHeightText = findViewById<TextView>(R.id.yourHeightText)
         val yourBMIText = findViewById<TextView>(R.id.yourBMIText)
+
         weightText.text = weight.toString()
         heightText.text = height.toString()
 
         weightUOMText.text = InputBodyData.setWeightUOMSystem(system)
         heightUOMText.text = InputBodyData.setHeightUOMSystem(system)
 
-        val bmi = calculateBMI(weight, height/100.0)
+        val bmi = InputBodyData.calculateBMI(system, weight, height)
         val bmiStatus = generateBMIStatus(bmi)
 
         bmiResultText.text = "%.2f".format(bmi)

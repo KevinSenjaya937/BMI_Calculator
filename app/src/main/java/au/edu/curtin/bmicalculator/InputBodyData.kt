@@ -31,6 +31,8 @@ class InputBodyData : AppCompatActivity() {
         selectedUOM.text = setSystemSelected(system)
         weightUnitText.text = setWeightUOMSystem(system)
         heightUnitText.text = setHeightUOMSystem(system)
+        weightSeekBar.max = setMaxWeight(system)
+        heightSeekBar.max = setMaxHeight(system)
 
         weightSeekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener{
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
@@ -126,6 +128,32 @@ class InputBodyData : AppCompatActivity() {
                 "METRIC"
             } else {
                 "IMPERIAL"
+            }
+        }
+
+        fun setMaxWeight(system : Int) : Int {
+            return if (system == 0) {
+                300
+            } else {
+                661
+            }
+        }
+
+        fun setMaxHeight(system: Int) : Int {
+            return if (system == 0) {
+                300
+            } else {
+                118
+            }
+        }
+
+        fun calculateBMI(system: Int, weight: Double, height: Double) : Double {
+            return if (system == 0) {
+//              If using metric system.
+                weight/((height/100) * (height/100))
+            } else {
+//              If using imperial system
+                (weight/(height*height))*703
             }
         }
     }
