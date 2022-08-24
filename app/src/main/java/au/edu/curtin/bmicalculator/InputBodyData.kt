@@ -3,6 +3,8 @@ package au.edu.curtin.bmicalculator
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.widget.Button
 import android.widget.SeekBar
 import android.widget.TextView
@@ -67,7 +69,7 @@ class InputBodyData : AppCompatActivity() {
                 val weight = weightBox.text.toString().toDouble()
                 val height = heightBox.text.toString().toDouble()
 
-                if ((weight in 0.0..300.0) && (height in 0.0..300.0)) {
+                if ((weight in 0.0..weightSeekBar.max.toDouble()) && (height in 0.0..heightSeekBar.max.toDouble())) {
                     val myIntent = Intent(this, BMIResults::class.java).also {
                         it.putExtra("system", system)
                         it.putExtra("weight", weight)
@@ -75,11 +77,11 @@ class InputBodyData : AppCompatActivity() {
                     }
                     startActivity(myIntent)
                 }
-                else if (weight !in 0.0..300.0) {
+                else if (weight !in 0.0..weightSeekBar.max.toDouble()) {
                     toast.setText("Please enter a valid weight")
                     toast.show()
                 }
-                else if (height !in 0.0..300.0) {
+                else if (height !in 0.0..heightSeekBar.max.toDouble()) {
                     toast.setText("Please enter a valid height")
                     toast.show()
                 }
