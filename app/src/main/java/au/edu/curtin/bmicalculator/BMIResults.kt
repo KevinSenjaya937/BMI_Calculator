@@ -8,8 +8,6 @@ import android.util.TypedValue
 import android.widget.Button
 import android.widget.TextView
 import androidx.core.graphics.drawable.toDrawable
-import org.w3c.dom.Text
-import kotlin.math.round
 
 class BMIResults : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
@@ -84,9 +82,6 @@ class BMIResults : AppCompatActivity() {
     }
 
     companion object {
-        fun calculateBMI(weight: Double, height: Double): Double {
-            return round(weight / (height * height))
-        }
 
         fun generateBMIStatus(bmi: Double) : String {
             return when  {
